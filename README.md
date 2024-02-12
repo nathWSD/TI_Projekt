@@ -2,7 +2,15 @@
 Bounding_box and handwritting Readme
 
 # Bounding_box Datei
-Die Datenvorverarbeitung ist ähnlich in den 3 Bounding_box training notebooks. es ändert sich manche Sachen je nachdem was man beim Training erreichen will. Die verschiedene Ziele werden erklärt.
+Die Datenvorverarbeitung ist ähnlich in den 3 Bounding_box training notebooks. es ändert sich manche Sachen je nachdem was man beim Training erreichen will. Die verschiedene Ziele werden erklärt. 
+Der meiste Teil der Datenvorverarbeitung ist von der Bounding_box Gruppe, da  das Ziel war, mit der gleichen Vorverarbeitung das YOLO mit dem SSD Model zu vergleichen.
+
+## models
+die Model Datei, in der die Weights der trainierten Model gespeichert sind. 
+##### ssd_model_checkpoint_sub_1.h5 -> enthält die weights von dem Training aus der Main Boxen "Ausbildung"
+##### ssd_model_checkpoint_sub_2.h5 -> enthält die weights von dem Training aus der Main Boxen "Person"
+##### ssd_model_checkpoint_sub_3.h5 -> enthält die weights von dem Training aus der Main Boxen "Wohnsitz"
+##### ssd_model_checkpoint_sub_4.h5 -> enthält die weights von dem Training aus der Main Boxen "Wohnsitz_während_ausbildung"
 
 ## ssd_testing_sub_box_Restnet_und_mobilenet.ipynb
 das Hauptziel diese Notebook ist zu untersuchen, welche Unterschied es geben wird, wenn ein Restnet oder ein MobileNet als Backbone zum Training verwendet wird.
@@ -42,6 +50,10 @@ Ein Beispiel der Sentences.txt Datei sieht so aus
 ###### "Person_Geburtstag|0|3|0|3|1|9|9|8" ist das Label des dazu gehörigen Bildes
 ###### "ok" weist darauf hin, dass das Bild ist Fehlerfrei zum Training einsetzbar und "err" wäre ein Fehler und das dazu gehörige Bild wird einfach übersprungen.
 ###### 154 19 0 0 zeigt die Bounding box coordinaten des Bildes, die aber nicht relevant in diesem Fall
+
+## model_weights
+##### transfer_learining_LSTM.h5 -> enthält die Weights aus dem Training von IAM_Datensatz mit dem selbst erzeugten Datensatz
+##### IAM_only_conv2d_LSTM.h5 -> enthält die Weights aus dem Training von IAM_Datensatz
 
 ## Bafög_IAM_sentence_Indentification_LSTM.ipynb
 Diese Notebook enthält alle Aufgaben, die nicht mit Efficientnet zu haben.
