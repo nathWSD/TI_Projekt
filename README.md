@@ -39,8 +39,11 @@ Bemerkung: aus diesem Unterteilung kamen die beste Ergebnisse, die mit SSD Model
 ##### Aufgabe 3 -> training mit Datensatz von Zahlen  and Sätze  aus dem BAFÖG Antrag
 ##### Aufgabe 4 -> training mit Datensatz von Zahlen and Sätze aus IAM dataset
 
-3 verschiedene Datensätze wurde von mir erzeugt, wo die ROI(Regions of intrest) aus dem Bafög Antrag ausgeschnitten wurden. Es besteht aus ungefähr 300 Trainingsbilder und deren Labels die in der Text Datei "sentences_kopie_2" oder "sentences_kopie_2" usw gespeichert wurde.
+3 verschiedene Datensätze wurde von mir erzeugt, wo die ROI(Regions of intrest) aus dem Bafög Antrag ausgeschnitten wurden. Es besteht aus ungefähr 300 Trainingsbilder und deren Labels die in der Text Datei "sentences", "sentences_kopie_2" und "sentences_kopie_3" gespeichert wurde.
 Ein Beispiel der Sentences.txt Datei sieht so aus 
+##### sentences.txt -> enthält die Labels von IAM Datensatz
+##### sentences_kopie_2.txt -> enthält die Labels der eigenen Datensatz aus dem Bafög Antrag
+##### sentences_kopie_3.txt -> enthält die Labels der Mischung von IAM und eigene Datensatz
 
 ###### z01-001-01 0 ok 182 19 0 0 292 18 1|1|1|1|2|0|0|4
 ###### a01-132x-s02-03 2 ok 166 23 292 2172 1692 96 regular|National|Assistance|grants|.
