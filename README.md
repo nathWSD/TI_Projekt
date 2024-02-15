@@ -74,3 +74,4 @@ Das Model wurde auch in verschienden Art und Weise trainiert
 ##### schließlich eine Mischung von Zahlen aus Bafäg Antrag und Teil des IAM Datensatzes
 
 Bemerkung: einfache conv2D Layers scheint besser zu sein im Vergleich zu einem Ansatz mit Efficientnet. Weil die Bildgröße sehr klein ist und man in diesem Fall nur mit Grayscale Bilder zu tun hat, ist Efficientnet zu komplex ein Model für diese Aufgabe.
+allgemeine Bemerkung: da meine Ansätze nicht die beste waren, wurden sie nicht in ganzem Projekt übernommen, obwohl ich nah daran war.
